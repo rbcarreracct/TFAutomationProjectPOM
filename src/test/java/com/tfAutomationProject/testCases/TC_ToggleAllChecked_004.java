@@ -16,7 +16,7 @@ import org.openqa.selenium.interactions.Actions;
 public class TC_ToggleAllChecked_004 extends BaseClassJunitTest{
 	
 	
-	//String strUrl = driver.getCurrentUrl();
+	
 	
 
 	
@@ -40,34 +40,18 @@ public class TC_ToggleAllChecked_004 extends BaseClassJunitTest{
 			
 		Actions act = new Actions(driver); act.sendKeys(Keys.F5).perform();
 	
-		//driver.findElement(By.name("data")).sendKeys(uuid);
+		
 		
 		driver.get(baseURL);
 		
 		
 		driver.findElement(By.name("allbox")).click();
 		
-		//driver.findElement(By.name("allbox")).click();
+		
 		
 		System.out.println(strUrl);
 		}
-	
-	//TC_ToggleAllChecked tcTAC = new TC_ToggleAllChecked();
-	
-	//public TC_ToggleAllChecked() throws InterruptedException {
-		//AddItem();
-		
-		//driver.get(baseURL);
-		//driver.findElement(By.name("allbox")).click();
-		
-		
-	//}
-		//public void allBoxChecked()
-	
-		//{
-			//driver.get(baseURL);
-			//driver.findElement(By.name("allbox")).click();
-		//}
+
 		
 		
 	}

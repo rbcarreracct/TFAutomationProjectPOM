@@ -19,17 +19,11 @@ public class TestBaseTFAutomationProject {
 	
 	public  String baseURL="https://techfios.com/test/101/";
 	
-	public  String addCat="Test1980";
-	
-	//public String addCat2="test1970";
-	
-	
-	
 	public Logger logger = LogManager.getLogger(TestBaseTFAutomationProject.class);
 	
 	public  WebDriver driver;
 	
-	//String strUrl = driver.getCurrentUrl();
+	
 	
 	
 	
