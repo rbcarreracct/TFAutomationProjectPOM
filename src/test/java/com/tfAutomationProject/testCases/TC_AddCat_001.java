@@ -19,6 +19,11 @@ public class TC_AddCat_001 extends TestBaseTFAutomationProject{
 	{
 		//open url	
 		driver.get(baseURL);
+		
+        driver.manage().window().maximize();
+		
+		driver.manage().deleteAllCookies();
+		
 		logger.info("URL is opened");
 		ValidateAddCategory vac =new ValidateAddCategory(driver);
 

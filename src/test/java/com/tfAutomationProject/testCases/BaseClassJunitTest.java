@@ -36,6 +36,9 @@ public class BaseClassJunitTest {
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver");
 
 		driver=new ChromeDriver();
+		
+		
+		
 	}
 
 	//@AfterClass
