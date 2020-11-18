@@ -2,6 +2,7 @@
 //Test case for adding category using TestNG
 package com.tfAutomationProject.testCases;
 
+import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -23,7 +24,10 @@ public class TC_AddCat_001 extends TestBaseTFAutomationProject{
 		
 		//add new category
 		logger.info("add category");
-		vac.setAddCategory(addCat);
+		//vac.setAddCategory(addCat);
+		String uuid = UUID.randomUUID().toString();
+		driver.findElement(By.name("categorydata")).sendKeys(uuid);
+		
 		
 		
 		//click on add button

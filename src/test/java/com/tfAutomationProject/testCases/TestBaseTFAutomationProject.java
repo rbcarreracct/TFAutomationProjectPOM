@@ -17,12 +17,22 @@ import org.testng.annotations.BeforeClass;
 
 public class TestBaseTFAutomationProject {
 	
-	public  String baseURL="https://techfios.com/test/101/";
+	public String baseURL="https://techfios.com/test/101/";
+	
+	public String addCat="test1980";
 	
 	public Logger logger = LogManager.getLogger(TestBaseTFAutomationProject.class);
 	
-	public  WebDriver driver;
+	public WebDriver driver;
 	
+	
+	
+	
+	
+	
+		
+		
+		
 	
 	
 	

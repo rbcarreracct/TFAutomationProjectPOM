@@ -1,25 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-16T13:35:01 CST" name="Default suite" finished-at="2020-11-16T13:35:13 CST" duration-ms="12097">
+  <suite started-at="2020-11-17T19:17:48 CST" name="TFAutomationProject" finished-at="2020-11-17T19:18:07 CST" duration-ms="19294">
     <groups>
     </groups>
-    <test started-at="2020-11-16T13:35:01 CST" name="Default test" finished-at="2020-11-16T13:35:13 CST" duration-ms="12097">
+    <test started-at="2020-11-17T19:17:48 CST" name="TestAdd_RemoveCat1" finished-at="2020-11-17T19:17:56 CST" duration-ms="8312">
       <class name="com.tfAutomationProject.testCases.TC_AddCat_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-16T13:35:01 CST" name="setUp" finished-at="2020-11-16T13:35:09 CST" duration-ms="8584" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T19:17:48 CST" name="setUp" finished-at="2020-11-17T19:17:52 CST" duration-ms="4717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCategory()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-16T13:35:09 CST" name="addCategory" finished-at="2020-11-16T13:35:12 CST" duration-ms="3072" status="PASS">
+        <test-method signature="addCategory()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T19:17:52 CST" name="addCategory" finished-at="2020-11-17T19:17:55 CST" duration-ms="3134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-16T13:35:12 CST" name="tearDown" finished-at="2020-11-16T13:35:13 CST" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T19:17:56 CST" name="tearDown" finished-at="2020-11-17T19:17:56 CST" duration-ms="336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tfAutomationProject.testCases.TC_AddCat_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestAdd_RemoveCat1 -->
+    <test started-at="2020-11-17T19:17:56 CST" name="TestAdd_RemoveCat2" finished-at="2020-11-17T19:18:02 CST" duration-ms="5567">
+      <class name="com.tfAutomationProject.testCases.TC_DuplicateCategory_002">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T19:17:56 CST" name="setUp" finished-at="2020-11-17T19:17:59 CST" duration-ms="2616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCategory()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T19:17:59 CST" name="addCategory" finished-at="2020-11-17T19:18:01 CST" duration-ms="2706" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [The category you want to add already exists:] but found [Are you sure you wish to remove Test1980?
+
+Yes or Nevermind]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [The category you want to add already exists:] but found [Are you sure you wish to remove Test1980?
+
+Yes or Nevermind]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.tfAutomationProject.testCases.TC_DuplicateCategory_002.addCategory(TC_DuplicateCategory_002.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T19:18:01 CST" name="tearDown" finished-at="2020-11-17T19:18:02 CST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tfAutomationProject.testCases.TC_DuplicateCategory_002 -->
+    </test> <!-- TestAdd_RemoveCat2 -->
+    <test started-at="2020-11-17T19:18:02 CST" name="TestAdd_RemoveCat3" finished-at="2020-11-17T19:18:07 CST" duration-ms="4795">
+      <class name="com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T19:18:02 CST" name="setUp" finished-at="2020-11-17T19:18:05 CST" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="displayMonthDd()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T19:18:05 CST" name="displayMonthDd" finished-at="2020-11-17T19:18:06 CST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMonthDd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T19:18:06 CST" name="tearDown" finished-at="2020-11-17T19:18:07 CST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003 -->
+    </test> <!-- TestAdd_RemoveCat3 -->
+  </suite> <!-- TFAutomationProject -->
 </testng-results>

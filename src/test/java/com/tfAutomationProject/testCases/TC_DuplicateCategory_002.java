@@ -2,6 +2,8 @@
 //Test case trying to add duplicate category
 package com.tfAutomationProject.testCases;
 
+import java.util.UUID;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -19,6 +21,7 @@ public class TC_DuplicateCategory_002 extends TestBaseTFAutomationProject{
 		
 		ValidateDuplicateCategoryNotAllowed vdc = new ValidateDuplicateCategoryNotAllowed(driver);
 		
+		
 		vdc.setAddCategory(addCat);
 		vdc.clickAdd();
 		
@@ -30,11 +33,11 @@ public class TC_DuplicateCategory_002 extends TestBaseTFAutomationProject{
 		String verifyText=driver.findElement(By.tagName("body")).getText().trim();
 		
 		//verifying text displayed
-		Assert.assertEquals(verifyText, "The category you want to add already exists: Test1980");
+		Assert.assertEquals(verifyText, "The category you want to add already exists:");
 		
 	    logger.info("Trying to add duplicate categories displays \t"+verifyText);
 		
-		
+		driver.findElement(By.linkText("Nevermind")).click();
 	}
 
 }
