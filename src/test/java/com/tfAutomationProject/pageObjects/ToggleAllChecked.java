@@ -17,13 +17,7 @@ public class ToggleAllChecked {
 
 	public WebElement textToAdd = driver.findElement(By.xpath("/html/body/div[4]/input[2]"));
 
-	//public String RdmKeys()
-
-	//{
-	//String uuid = UUID.randomUUID().toString();
-	//return uuid;
-
-	//}
+	
 
 	public void fieldToAddCat(String ac)
 	{

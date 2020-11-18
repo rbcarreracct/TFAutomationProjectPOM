@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-17T19:17:48 CST" name="TFAutomationProject" finished-at="2020-11-17T19:18:07 CST" duration-ms="19294">
+  <suite started-at="2020-11-17T20:50:54 CST" name="TFAutomationProject" finished-at="2020-11-17T20:51:15 CST" duration-ms="20787">
     <groups>
     </groups>
-    <test started-at="2020-11-17T19:17:48 CST" name="TestAdd_RemoveCat1" finished-at="2020-11-17T19:17:56 CST" duration-ms="8312">
+    <test started-at="2020-11-17T20:50:54 CST" name="TestAdd_RemoveCat1" finished-at="2020-11-17T20:51:03 CST" duration-ms="9243">
       <class name="com.tfAutomationProject.testCases.TC_AddCat_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T19:17:48 CST" name="setUp" finished-at="2020-11-17T19:17:52 CST" duration-ms="4717" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T20:50:54 CST" name="setUp" finished-at="2020-11-17T20:51:00 CST" duration-ms="5545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCategory()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T19:17:52 CST" name="addCategory" finished-at="2020-11-17T19:17:55 CST" duration-ms="3134" status="PASS">
+        <test-method signature="addCategory()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T20:51:00 CST" name="addCategory" finished-at="2020-11-17T20:51:03 CST" duration-ms="2984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T19:17:56 CST" name="tearDown" finished-at="2020-11-17T19:17:56 CST" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_AddCat_001@3381b4fc]" started-at="2020-11-17T20:51:03 CST" name="tearDown" finished-at="2020-11-17T20:51:03 CST" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tfAutomationProject.testCases.TC_AddCat_001 -->
     </test> <!-- TestAdd_RemoveCat1 -->
-    <test started-at="2020-11-17T19:17:56 CST" name="TestAdd_RemoveCat2" finished-at="2020-11-17T19:18:02 CST" duration-ms="5567">
+    <test started-at="2020-11-17T20:51:03 CST" name="TestAdd_RemoveCat2" finished-at="2020-11-17T20:51:10 CST" duration-ms="6265">
       <class name="com.tfAutomationProject.testCases.TC_DuplicateCategory_002">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T19:17:56 CST" name="setUp" finished-at="2020-11-17T19:17:59 CST" duration-ms="2616" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T20:51:03 CST" name="setUp" finished-at="2020-11-17T20:51:06 CST" duration-ms="3008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCategory()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T19:17:59 CST" name="addCategory" finished-at="2020-11-17T19:18:01 CST" duration-ms="2706" status="FAIL">
+        <test-method signature="addCategory()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T20:51:06 CST" name="addCategory" finished-at="2020-11-17T20:51:09 CST" duration-ms="2903" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [The category you want to add already exists:] but found [Are you sure you wish to remove Test1980?
@@ -78,23 +78,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T19:18:01 CST" name="tearDown" finished-at="2020-11-17T19:18:02 CST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_DuplicateCategory_002@3e10dc6]" started-at="2020-11-17T20:51:09 CST" name="tearDown" finished-at="2020-11-17T20:51:10 CST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tfAutomationProject.testCases.TC_DuplicateCategory_002 -->
     </test> <!-- TestAdd_RemoveCat2 -->
-    <test started-at="2020-11-17T19:18:02 CST" name="TestAdd_RemoveCat3" finished-at="2020-11-17T19:18:07 CST" duration-ms="4795">
+    <test started-at="2020-11-17T20:51:10 CST" name="TestAdd_RemoveCat3" finished-at="2020-11-17T20:51:15 CST" duration-ms="4751">
       <class name="com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T19:18:02 CST" name="setUp" finished-at="2020-11-17T19:18:05 CST" duration-ms="2503" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T20:51:10 CST" name="setUp" finished-at="2020-11-17T20:51:13 CST" duration-ms="2463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="displayMonthDd()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T19:18:05 CST" name="displayMonthDd" finished-at="2020-11-17T19:18:06 CST" duration-ms="1895" status="PASS">
+        <test-method signature="displayMonthDd()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T20:51:13 CST" name="displayMonthDd" finished-at="2020-11-17T20:51:14 CST" duration-ms="1899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayMonthDd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T19:18:06 CST" name="tearDown" finished-at="2020-11-17T19:18:07 CST" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tfAutomationProject.testCases.TC_AllMonthsDisplayed_003@488eb7f2]" started-at="2020-11-17T20:51:14 CST" name="tearDown" finished-at="2020-11-17T20:51:15 CST" duration-ms="385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
