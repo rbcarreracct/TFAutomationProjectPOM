@@ -14,48 +14,48 @@ import org.openqa.selenium.interactions.Actions;
 
 
 public class TC_ToggleAllChecked_004 extends BaseClassJunitTest{
-	
-	
-	
-	
 
-	
+
+
+
+
+
 	@Test
 	public void AddItem() throws InterruptedException
 	{
 		driver.get(baseURL);
 		String uuid = UUID.randomUUID().toString();
 		driver.findElement(By.name("data")).sendKeys(uuid);
-	
-		
-		
+
+
+
 		WebElement textToAdd = driver.findElement(By.xpath("/html/body/div[4]/input[2]"));
 		textToAdd.click();
-		
-	    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		
-		String strUrl = driver.getCurrentUrl();
-		
-		driver.get(strUrl);
-			
-		Actions act = new Actions(driver); act.sendKeys(Keys.F5).perform();
-	
-		
-		
-		driver.get(baseURL);
-		
-		
-		driver.findElement(By.name("allbox")).click();
-		
-		
-		
-		System.out.println(strUrl);
-		}
 
-		
-		
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+		String strUrl = driver.getCurrentUrl();
+
+		driver.get(strUrl);
+
+		Actions act = new Actions(driver); act.sendKeys(Keys.F5).perform();
+
+
+
+		driver.get(baseURL);
+
+
+		driver.findElement(By.name("allbox")).click();
+
+
+
+		System.out.println(strUrl);
 	}
-	
-	
+
+
+
+}
+
+
 
 
