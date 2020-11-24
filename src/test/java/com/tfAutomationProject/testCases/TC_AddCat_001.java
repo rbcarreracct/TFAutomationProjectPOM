@@ -29,7 +29,6 @@ public class TC_AddCat_001 extends TestBaseTFAutomationProject{
 
 		//add new category
 		logger.info("add category");
-		//vac.setAddCategory(addCat);
 		String uuid = UUID.randomUUID().toString();
 		driver.findElement(By.name("categorydata")).sendKeys(uuid);
 
